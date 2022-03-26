@@ -492,6 +492,8 @@ function draw() {
     image(c4, width/2-266, height-360);
   }
    
+  speed=1*(deltaTime/15);
+  
   if (matr[parseInt(newx)][parseInt(newy)]>=255) {
     xP=newx;
     yP=newy;
